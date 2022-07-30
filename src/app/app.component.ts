@@ -13,8 +13,7 @@ import { BService } from '@services/b.service';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  template: `<h1>{{title}}</h1>`
 })
 export class AppComponent {
   public title: string = `Angular ${VERSION.major} Absolute Path`;
